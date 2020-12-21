@@ -1,0 +1,5 @@
+read PNIG*HHZ*sac
+rmean
+taper
+transfer from polezero subtype PNIG.PZ to ACC freqlimits 0.01 0.02 30 40
+write prepend ACC.
